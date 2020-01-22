@@ -1,12 +1,16 @@
 import React from 'react'
 import './style.css';
 
-const Product = ({ product }) => {
+const Product = ({ product, car, setCar, products }) => {
 
   const {name, price, id} = product
 
   const ProductSelected = (id) => {
-    console.log('Comprando....' + id);
+    const items = products.filter(item => item.id === id);
+    setCar([
+      ...car,
+      ...items
+    ]);
   }
 
   return ( 
