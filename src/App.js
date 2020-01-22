@@ -35,6 +35,7 @@ function App() {
         )}
       <Car  
         car={car}
+        setCar={setCar}
       />
       <Footer
         date={year} 
