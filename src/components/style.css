@@ -1,0 +1,15 @@
+.product-div{
+  background-color: lightcoral;
+  color: aliceblue;
+  padding: 1rem;
+  margin: 1rem;
+  width: 7rem;
+}
+
+.btn-buy{
+  height: 2rem;
+  width: 6rem;
+  border-radius: 6px;
+  font-size: .8rem;
+  background-color: lightblue;
+}
