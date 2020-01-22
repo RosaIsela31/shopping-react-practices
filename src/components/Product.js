@@ -6,7 +6,7 @@ const Product = ({ product }) => {
   const {name, price, id} = product
 
   const ProductSelected = (id) => {
-    console.log('Comprando...' + id);
+    console.log('Comprando....' + id);
   }
 
   return ( 
