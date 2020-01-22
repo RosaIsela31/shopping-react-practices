@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 function App() {
+  // Creating product list
+  const [products, setProducts] = useState([
+    {id: 1, name: 'falda', price: 50},
+    {id: 2, name: 'vestido', price: 120},
+    {id: 3, name: 'zapatillas', price: 80},
+    {id: 4, name: 'pantalón', price: 100}
+  ]);
+
+  const year = new Date().getFullYear();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header 
+        title='Tienda virtual'
+      />
+      <Footer
+        date={year} 
+      />
+    </Fragment>
   );
 }
 
