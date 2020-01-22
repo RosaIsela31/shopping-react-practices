@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shopping-react-practices/static/css/main.504b344e.chunk.css",
+    "main.js": "/shopping-react-practices/static/js/main.007ba2ac.chunk.js",
+    "main.js.map": "/shopping-react-practices/static/js/main.007ba2ac.chunk.js.map",
+    "runtime-main.js": "/shopping-react-practices/static/js/runtime-main.848395c7.js",
+    "runtime-main.js.map": "/shopping-react-practices/static/js/runtime-main.848395c7.js.map",
+    "static/js/2.09c75148.chunk.js": "/shopping-react-practices/static/js/2.09c75148.chunk.js",
+    "static/js/2.09c75148.chunk.js.map": "/shopping-react-practices/static/js/2.09c75148.chunk.js.map",
+    "index.html": "/shopping-react-practices/index.html",
+    "precache-manifest.de9c20c92fe57bb90f49427b8b323727.js": "/shopping-react-practices/precache-manifest.de9c20c92fe57bb90f49427b8b323727.js",
+    "service-worker.js": "/shopping-react-practices/service-worker.js",
+    "static/css/main.504b344e.chunk.css.map": "/shopping-react-practices/static/css/main.504b344e.chunk.css.map",
+    "static/js/2.09c75148.chunk.js.LICENSE": "/shopping-react-practices/static/js/2.09c75148.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.848395c7.js",
+    "static/js/2.09c75148.chunk.js",
+    "static/css/main.504b344e.chunk.css",
+    "static/js/main.007ba2ac.chunk.js"
+  ]
+}
